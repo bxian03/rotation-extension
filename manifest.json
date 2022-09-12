@@ -5,6 +5,12 @@
 
   "description": "rotates, inverts, and flips images",
 
+  "icons": {
+    "16": "icons/eyes16.png",
+    "48": "icons/eyes48.png",
+    "128": "icons/eyes128.png"
+  },
+
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
