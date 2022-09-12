@@ -18,5 +18,10 @@
     }
   ],
 
-  "permissions": ["activeTab"]
+  "permissions": ["activeTab"],
+
+  "browser_action": {
+    "default_icon": "icons/eyes32.png",
+    "default_title": "rotate image"
+  }
 }
